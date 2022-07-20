@@ -40,7 +40,7 @@ export class UserComponent implements OnInit {
 
       //Keywords
       {
-        name: "keywords", contents: "Tranquility, user setings, settings"
+        name: "keywords", contents: "Tranquility, user setings, settings, user"
       },
 
       //End of addMetaTags
