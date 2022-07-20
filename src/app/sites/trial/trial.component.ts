@@ -55,4 +55,8 @@ export class TrialComponent implements OnInit {
     //End of ngOnInit
   }
 
+
+
+
+
 }
