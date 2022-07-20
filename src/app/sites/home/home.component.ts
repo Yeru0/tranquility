@@ -42,9 +42,13 @@ export class HomeComponent implements OnInit {
       //Keywords
       {
         name: "keywords", content: "Tranquility, community car rental, car rental"
-      }
+      },
 
+      //End of addMetaTags
     ]);
+
+
+
 
     //Adding a title to the page
     this.title.setTitle("Tranquility: Home");
