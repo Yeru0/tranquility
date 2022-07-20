@@ -35,12 +35,12 @@ export class CompanyComponent implements OnInit {
 
       //Description
       {
-        name: "description", content: "Company settings"
+        name: "description", content: "Check out this company on Tranquility community car rental"
       },
 
       //Keywords
       {
-        name: "keywords", contents: "Tranquility, company settings, settings, company"
+        name: "keywords", contents: "Tranquility, company settings, settings, company, display, display company"
       },
 
       //End of addMetaTags
