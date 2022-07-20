@@ -35,7 +35,7 @@ export class ForgotPasswordComponent implements OnInit {
 
       //Description
       {
-        name: "description", content: "Reset your password for your Tranquility community car rental account."
+        name: "description", content: "Reset your password for your Tranquility community car rental page account."
       },
 
       //Keywords
@@ -49,7 +49,7 @@ export class ForgotPasswordComponent implements OnInit {
 
 
     //Adding a title to the page
-    this.title.setTitle("Tranquility: Forgot Password");
+    this.title.setTitle("Tranquility: Free Trial");
 
 
     //End of ngOnInit
