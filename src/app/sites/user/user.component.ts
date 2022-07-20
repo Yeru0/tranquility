@@ -35,12 +35,12 @@ export class UserComponent implements OnInit {
 
       //Description
       {
-        name: "description", content: "User setings"
+        name: "description", content: "Checkout this user on Tranquility community car rental"
       },
 
       //Keywords
       {
-        name: "keywords", contents: "Tranquility, user setings, settings, user"
+        name: "keywords", contents: "Tranquility, user setings, settings, user, display, display user"
       },
 
       //End of addMetaTags
