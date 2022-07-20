@@ -31,7 +31,7 @@ export class SignUpComponent implements OnInit {
 
       //Description
       {
-        name: "description", content: "Create your Tranquility community car rental profile for free!"
+        name: "description", content: "Create your Tranquility community car rental account for free!"
       },
 
       //Keywords
