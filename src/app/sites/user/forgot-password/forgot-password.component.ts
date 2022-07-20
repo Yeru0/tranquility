@@ -49,7 +49,7 @@ export class ForgotPasswordComponent implements OnInit {
 
 
     //Adding a title to the page
-    this.title.setTitle("Tranquility: Free Trial");
+    this.title.setTitle("Tranquility: Forgot Password");
 
 
     //End of ngOnInit
