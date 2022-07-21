@@ -3,11 +3,13 @@ import { CommonModule } from "@angular/common";
 
 import { SignUpRoutingModule } from "./sign-up-routing.module";
 import { SignUpComponent } from "./sign-up.component";
+import { GoogleDirective } from '../../../firebase/auth/sign-up/google/google.directive';
 
 
 @NgModule({
   declarations: [
-    SignUpComponent
+    SignUpComponent,
+    GoogleDirective
   ],
   imports: [
     CommonModule,
