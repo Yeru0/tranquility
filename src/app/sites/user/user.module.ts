@@ -7,6 +7,7 @@ import { UserComponent } from "./user.component";
 import { DndDirective } from '../../firebase/storage/upload/dnd/dnd.directive';
 import { SignOutDirective } from '../../firebase/auth/sign-out/sign-out.directive';
 import { DeleteUserDirective } from '../../firebase/auth/delete-user/delete-user.directive';
+import { ChangePasswordDirective } from '../../firebase/auth/change-password/change-password.directive';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { DeleteUserDirective } from '../../firebase/auth/delete-user/delete-user
     UserComponent,
     SignOutDirective,
     DeleteUserDirective,
+    ChangePasswordDirective,
   ],
   imports: [
     CommonModule,
