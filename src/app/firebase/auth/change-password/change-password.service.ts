@@ -1,9 +1,26 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Inject } from '@angular/core';
+
+import {
+  Auth,
+  updatePassword
+} from "@angular/fire/auth";
+
+
+
+
 
 @Injectable({
   providedIn: 'root'
 })
 export class ChangePasswordService {
 
-  constructor() { }
+  constructor(
+    @Inject(Auth) private auth: any,
+  ) { }
+
+
+  changePassword(password) {
+
+  }
+
 }
