@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tranquility-dev": {
+      "hosting": {
+        "tranquility": [
+          "tranquility-dev"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tranquility-dev"
+  }
+}
