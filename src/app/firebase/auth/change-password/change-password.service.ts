@@ -14,6 +14,10 @@ import {
 })
 export class ChangePasswordService {
 
+
+
+
+
   constructor(
     @Inject(Auth) private auth: any,
   ) { }
@@ -21,6 +25,31 @@ export class ChangePasswordService {
 
   changePassword(password) {
 
+
+
+    return new Promise((resolve, reject) => {
+
+      //Get the current user
+      const currentUser = this.auth.currentUser;
+
+      //Update password
+      updatePassword(currentUser, password)
+        .then((result) => {
+          resolve(result);
+        }).catch((err) => {
+          reject(err);
+        });
+
+
+      //Promise end
+    });
+
+
+    //Change password function end
   }
+
+
+
+
 
 }
