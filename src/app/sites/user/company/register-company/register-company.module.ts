@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
-import { RegisterCompanyRoutingModule } from './register-company-routing.module';
-import { RegisterCompanyComponent } from './register-company.component';
+import { RegisterCompanyRoutingModule } from "./register-company-routing.module";
+import { RegisterCompanyComponent } from "./register-company.component";
 
 
 @NgModule({

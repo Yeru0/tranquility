@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, OnInit, Inject } from "@angular/core";
 //SEO
 import { Meta, Title } from "@angular/platform-browser";
 
@@ -7,9 +7,9 @@ import { Meta, Title } from "@angular/platform-browser";
 
 
 @Component({
-  selector: 'app-car',
-  templateUrl: './car.component.html',
-  styleUrls: ['./car.component.scss']
+  selector: "app-car",
+  templateUrl: "./car.component.html",
+  styleUrls: ["./car.component.scss"]
 })
 export class CarComponent implements OnInit {
 

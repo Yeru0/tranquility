@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
-import { TrialRoutingModule } from './trial-routing.module';
-import { TrialComponent } from './trial.component';
+import { TrialRoutingModule } from "./trial-routing.module";
+import { TrialComponent } from "./trial.component";
 
 
 @NgModule({
