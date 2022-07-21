@@ -27,7 +27,8 @@ const routes: Routes = [
   {
     path: "trial",
     loadChildren: () => import("./sites/trial/trial.module").then(m => m.TrialModule),
-    canActivate: [AuthGuard], data: { authGuardPipe: redirectUnauthorizedToLogin }
+    canActivate: [AuthGuard],
+    data: { authGuardPipe: redirectUnauthorizedToLogin }
   },
 
   //End of Routes
