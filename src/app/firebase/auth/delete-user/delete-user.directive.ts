@@ -21,7 +21,7 @@ export class DeleteUserDirective {
 
 
   //Output message
-  @Output() outputMessage = new EventEmitter<string>();
+  @Output() outputMessage = new EventEmitter<void>();
 
 
 
@@ -41,9 +41,9 @@ export class DeleteUserDirective {
     //Delete user
     deleteUser(user)
       .then((result) => {
-        outputMessage.emit(result);
+        this.outputMessage.emit(result);
       }).catch((err) => {
-        outputMessage.emit(err);
+        this.outputMessage.emit(err);
       });
 
 
