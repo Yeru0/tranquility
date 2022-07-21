@@ -2,9 +2,14 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { UserComponent } from './user.component';
 
-//Route protection
+//Unauthorized route protection
 import { AuthGuard, redirectUnauthorizedTo } from "@angular/fire/auth-guard";
 
+//Unsubscribed route protection
+import { SubscribedGuard } from "../../guards/subscribed/subscribed.guard";
+
+
+//Unauthorized route protection
 const redirectUnauthorizedToLogin = () => redirectUnauthorizedTo(['user/login']);
 
 
@@ -39,8 +44,7 @@ const routes: Routes = [
   {
     path: 'company',
     loadChildren: () => import('./company/company.module').then(m => m.CompanyModule),
-    canActivate: [AuthGuard],
-    data: { authGuardPipe: redirectUnauthorizedToLogin }
+    canActivate: [SubscribedGuard],
   },
 
 
