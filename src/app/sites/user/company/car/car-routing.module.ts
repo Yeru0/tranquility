@@ -15,6 +15,7 @@ const routes: Routes = [
     loadChildren: () => import("./register-car/register-car.module").then(m => m.RegisterCarModule)
   },
 
+  //End of Routes
 ];
 
 @NgModule({
