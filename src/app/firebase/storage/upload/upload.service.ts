@@ -23,12 +23,12 @@ export class UploadService {
 
 
   //Upload a fiel
-  upload(where: string, name: string, file: File) {
+  upload(path: string, name: string, file: File) {
 
 
 
     //Storage reference
-    const storageRef = ref(this.storage, `${where}/${name}`);
+    const storageRef = ref(this.storage, `${path}/${name}`);
 
     //Upload file
     return uploadBytesResumable(storageRef, file);
